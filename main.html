@@ -8,7 +8,7 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
+	<form method="get">
 		<label for="name">Name
 		<input type="text" id="name" required>
 			
@@ -20,10 +20,10 @@
 		<input type="radio" name = "gender" value= "female" required>female
 			
 		<label for="cars">Car Brands
-		<select>
-			<option value="bmw" id="cars">BMW</option>
-			<option value="audi" id="cars">Audi</option>
-			<option value="mercedes" id="cars">Mercedes</option>
+		<select id="cars" name="cars">
+			<option>BMW</option>
+			<option>Audi</option>
+			<option>Mercedes</option>
 		</select>
 			
 		<label for="carage">Car Age
